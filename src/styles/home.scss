@@ -19,7 +19,7 @@
       margin-bottom: 10px;
     }
     .subsection-paragraph {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       font-size: 1.2rem;
       max-width: 700px;
     }
@@ -47,6 +47,27 @@
     }
   }
   .overview {
-    background-color: whitesmoke;
+    background-color: rgb(221, 211, 232);
+    height: auto;
+    min-height: 60vh;
+  }
+  
+  .projects {
+    background-color: rgb(160, 141, 195);
+    height: auto;
+    min-height: 60vh;
+  }
+
+  .connect-container p {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+  }
+
+  .hero-background {
+    position: relative; 
+    margin-left: 5px; // Move the image 20px to the right
   }
 }
+

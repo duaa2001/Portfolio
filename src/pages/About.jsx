@@ -1,15 +1,17 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import PlaceholderImage from '../assets/placeholder_image.png';
+import myImage from '../assets/aboutimage.jpg';
 
 // Replace these variables with your information
-const firstName = 'Replace with your first name';
-const jobTitle = 'Replace with your title';
-const company = 'Replace with your company name';
-const mainDuty = 'Replace with your main duty';
-const jobLocation = 'Replace with your job location';
-const briefJobDescription = 'Replace with a brief description of your job';
-const careerObjective = 'Replace with your career objective';
-const personalLife = 'Replace with a brief description of your personal life';
+const firstName = 'Duaa';
+const jobTitle = 'Software Developer';
+const jobLocation = 'New York';
+const briefJobDescription = 'Passionate about creating user-centric applications with experience in full-stack development.';
+const careerObjective = 'Aiming to leverage my diverse technical skills to contribute to impactful software development projects.';
+const personalLife = 'Enjoy problem-solving and value diversity as a first-generation woman of color.';
+
+// Log the variables to ensure they are set correctly
+console.log(firstName, jobTitle, jobLocation, briefJobDescription, careerObjective, personalLife);
 
 const About = () => {
   return (
@@ -17,10 +19,10 @@ const About = () => {
       <section className='about-content-container'>
         <section className='image-container'>
           {/* Replace this placeholder image and alt tag with a professional headshot */}
-          <img className='headshot' src={PlaceholderImage} alt="placeholder image" />
+          <img className='headshot' src={myImage} alt="work life balance pic" />
         </section>
         <section className='description-container'>
-          <h2 className='text-xl font-medium'>I&apos;m {firstName}, a {jobTitle} working for, {company} on {mainDuty} located in, {jobLocation}</h2>
+          <h2 className='text-xl font-medium'>I&apos;m {firstName}, a {jobTitle} located in {jobLocation}.</h2>
           <p>{briefJobDescription}</p>
           <p>{careerObjective}</p>
           <p>{personalLife}</p>
@@ -29,6 +31,7 @@ const About = () => {
         </section>
       </section>
     </main>
-  )
-}
- export default About;
+  );
+};
+
+export default About;

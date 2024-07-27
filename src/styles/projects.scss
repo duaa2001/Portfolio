@@ -1,4 +1,5 @@
 .projects-container {
+  background-color: black;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
@@ -26,10 +27,40 @@
     }
     a {
       text-decoration: underline;
-      color: blue;
+      color: rgb(253, 253, 253);
     }
     a:hover {
-      color:darkblue;
+      color:rgb(23, 23, 240);
     }
   }
+}
+
+/* Target the second image in the project list */
+.projects-container .project-item:nth-child(2) .project-image {
+  height: 500px; 
+  width: 800px;
+  margin-bottom: 0px; 
+}
+
+.projects-container .project-item:nth-child(3) .project-image {
+  height: 500px; 
+  margin-bottom: 5px; 
+}
+
+
+.projects-container .project-item h2 {
+  margin-top: 0px; 
+}
+
+.text-git {
+  color: #ffffff; // White color
+}
+
+.icon-container {
+  background-color: #ffffff; // White background
+}
+
+.icon {
+  width: 20px; 
+  height: 20px; 
 }

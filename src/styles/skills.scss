@@ -1,0 +1,31 @@
+.skills-container {
+  background-color: black;
+  padding: 120px;
+  text-align: center;
+}
+
+.skills-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #011b08;
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+  color: white;
+}
+
+.skill-icon {
+  font-size: 4rem;
+  margin-bottom: 5px;
+}
