@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa6";
 import P1Image from '../assets/Project1.png';
 import P2Image from '../assets/Project2.png';
 import P3Image from '../assets/Project_3.jpg';
-import P4Image from '../assets/project4.png';
+import P4Image from '../assets/p4image.jpg';
 import P5Image from '../assets/Project5.png';
 
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
@@ -24,18 +24,21 @@ const myProjects = [
     repositoryLink: 'https://github.com/duaa2001/React_Weather_App',
     image: P2Image,
   },
+
+  {
+    title: 'Customer Support AI',
+    description: 'This project is a customer support chatbot built with Next.js, React, and OpenAI\'s gpt-3.5-turbo model. It features a Material-UI interface for users to interact with the AI, providing real-time, responsive support in a styled chat window.',
+    repositoryLink: 'https://github.com/duaa2001/AI-Customer-Support-',
+    image: P4Image,
+  },
+  
   {
     title: 'Python Health Tracker Tool',
     description: 'This Python Health Tracker Tool helps users log their dietary habits and exercise routines. Built using Python with Pandas and NumPy, it provides efficient calorie calculations and error handling for a seamless user experience.',
     repositoryLink: 'https://github.com/duaa2001/Python_MyProjects/tree/main/Python_Diet_Log',
     image: P3Image,
   },
-  {
-    title: 'Basic Patient Management',
-    description: 'This Basic Patient Management application, built using Python, leverages object-oriented programming to manage patient data efficiently. It allows for the addition, removal, and update of patient information.',
-    repositoryLink: 'https://github.com/duaa2001/Python_MyProjects/tree/main/OOP_Patient_Roster',
-    image: P4Image,
-  },
+
   {
     title: 'Easy Shopping',
     description: 'This HTML/CSS web application provides users with ethical and affordable alternatives to popular fashion brands',
@@ -67,7 +70,7 @@ const Projects = () => {
           </section>
           <h2 className="text-xl font-semibold text-white">{project.title}</h2>
           <p className="text-lg text-white">{project.description}</p>
-          <p>Check out the link to the project repository <a href={project.repositoryLink} target="_blank">Here</a></p>
+          <p className = "click here text-white italic"> Check out the link to the project repository <a href={project.repositoryLink} target="_blank">Here</a></p>
         </section>
       ))}
     </main>
