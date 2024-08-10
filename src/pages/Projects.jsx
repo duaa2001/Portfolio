@@ -16,12 +16,15 @@ const myProjects = [
     title: 'Femcare - Healthcare Site',
     description: "Femcare is a comprehensive healthcare application built using the MERN stack (MongoDB, Express, React, Node.js) to promote women's health awareness. Its primary goal is to provide valuable resources, facilitate early symptom detection, and foster a supportive community. The application offers access to a wide range of health articles and enables users to engage with others through forums and support groups, enhancing the overall user experience and support system.",
     repositoryLink: 'https://github.com/duaa2001/MERN_Healthcare_App',
+    deploymentLink: 'https://mern-healthcare-app.vercel.app/',
     image: P1Image,
   },
+
   {
     title: 'Weather Application',
     description: 'This weather application, built using React, provides real-time weather updates using an API. Users can search for current weather conditions in any city, with data dynamically displayed in an interactive user interface.',
     repositoryLink: 'https://github.com/duaa2001/React_Weather_App',
+    deploymentLink: 'https://duaa-weather-application.netlify.app/',
     image: P2Image,
   },
 
@@ -29,6 +32,7 @@ const myProjects = [
     title: 'Customer Support AI',
     description: 'This project is a customer support chatbot built with Next.js, React, and OpenAI\'s gpt-3.5-turbo model. It features a Material-UI interface for users to interact with the AI, providing real-time, responsive support in a styled chat window.',
     repositoryLink: 'https://github.com/duaa2001/AI-Customer-Support-',
+    deploymentLink: 'https://ai-customer-support-eight.vercel.app/',
     image: P4Image,
   },
   
@@ -70,7 +74,12 @@ const Projects = () => {
           </section>
           <h2 className="text-xl font-semibold text-white">{project.title}</h2>
           <p className="text-lg text-white">{project.description}</p>
-          <p className = "click here text-white italic"> Check out the link to the project repository <a href={project.repositoryLink} target="_blank">Here</a></p>
+          <p className = "click-here text-gray-300 italic"> Check out the link to the project repository <a href={project.repositoryLink} target="_blank">Here</a></p>
+          {project.deploymentLink && (
+            <p className="deploy text-lime-300 italic">
+              View the live deployment <a href={project.deploymentLink} target="_blank">Here</a>
+            </p>
+          )}
         </section>
       ))}
     </main>
