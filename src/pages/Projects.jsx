@@ -2,8 +2,8 @@ import { FaGithub } from "react-icons/fa6";
 import P1Image from '../assets/Project1.png';
 import P2Image from '../assets/Project2.png';
 import P3Image from '../assets/Project_3.jpg';
-import P4Image from '../assets/p4image.jpg';
-import P5Image from '../assets/Project5.png';
+import P4Image from '../assets/techmarketproject.png';
+import P5Image from '../assets/movieboxproject.png';
 
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
 // properties:
@@ -29,13 +29,21 @@ const myProjects = [
   },
 
   {
-    title: 'Customer Support AI',
-    description: 'This project is a customer support chatbot built with Next.js, React, and OpenAI\'s gpt-3.5-turbo model. It features a Material-UI interface for users to interact with the AI, providing real-time, responsive support in a styled chat window.',
-    repositoryLink: 'https://github.com/duaa2001/AI-Customer-Support-',
-    deploymentLink: 'https://ai-customer-support-eight.vercel.app/',
+    title: 'Tech Marketplace site',
+    description: 'Tech Marketplace is a LinkedIn-style platform for tech professionals to showcase projects and connect based on skills and interests. Users can create profiles, display projects, and leverage AI to generate profile summaries.',
+    repositoryLink: 'https://github.com/duaa2001/RecruitingSite',
+    deploymentLink: 'https://techmarketplace-dts-projects-8b296abb.vercel.app/',
     image: P4Image,
   },
-  
+
+  {
+    title: 'Movie Box: Customer Support Agent',
+    description: 'This project is a movie recommendation chatbot built with Next.js, React, and OpenAI\'s gpt-3.5-turbo model. It features a Material-UI interface for users to engage with the AI, offering real-time, personalized movie recommendations in a sleek and responsive chat window.',
+    repositoryLink: 'https://github.com/duaa2001/rate_projects',
+    deploymentLink: 'https://moviebox-ten-mu.vercel.app/',
+    image: P5Image,
+  },
+
   {
     title: 'Python Health Tracker Tool',
     description: 'This Python Health Tracker Tool helps users log their dietary habits and exercise routines. Built using Python with Pandas and NumPy, it provides efficient calorie calculations and error handling for a seamless user experience.',
@@ -43,12 +51,6 @@ const myProjects = [
     image: P3Image,
   },
 
-  {
-    title: 'Easy Shopping',
-    description: 'This HTML/CSS web application provides users with ethical and affordable alternatives to popular fashion brands',
-    repositoryLink: 'https://github.com/duaa2001/Easy_Shopping/tree/main/Project-Shopping',
-    image: P5Image,
-  },
   {
     title: 'See More',
     description: '',

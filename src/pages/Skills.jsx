@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaPython, FaJsSquare, FaHtml5, FaCss3Alt, FaJava, FaDatabase, FaReact, FaNodeJs, FaGitAlt, FaWindows, FaFigma } from 'react-icons/fa';
-
+import { SiNextdotjs, SiMongodb, SiFirebase, SiExpress, SiInsomnia, SiVercel, SiOpenai } from 'react-icons/si';
 
 const skills = [
   { name: 'Python', icon: <FaPython style={{ color: '#306998' }} /> },
@@ -11,7 +11,14 @@ const skills = [
   { name: 'SQL', icon: <FaDatabase style={{ color: '#003B57' }} /> },
   { name: 'React', icon: <FaReact style={{ color: '#61DBFB' }} /> },
   { name: 'Node.js', icon: <FaNodeJs style={{ color: '#68A063' }} /> },
+  { name: 'Next.js', icon: <SiNextdotjs style={{ color: '#000000' }} /> }, // Next.js
+  { name: 'MongoDB', icon: <SiMongodb style={{ color: '#47A248' }} /> }, // MongoDB
+  { name: 'Firebase', icon: <SiFirebase style={{ color: '#FFCA28' }} /> }, // Firebase
+  { name: 'Express', icon: <SiExpress style={{ color: '#000000' }} /> }, // Express
+  { name: 'Insomnia', icon: <SiInsomnia style={{ color: '#4000BF' }} /> }, // Insomnia
   { name: 'Git', icon: <FaGitAlt style={{ color: '#F05032' }} /> },
+  { name: 'Vercel', icon: <SiVercel style={{ color: '#000000' }} /> }, // Vercel
+  { name: 'OpenAI', icon: <SiOpenai style={{ color: '#412991' }} /> }, // OpenAI
   { name: 'Visual Studio Code', icon: <FaWindows style={{ color: '#007ACC' }} /> },
   { name: 'Figma', icon: <FaFigma style={{ color: '#F24E1E' }} /> },
 ];
@@ -33,5 +40,6 @@ const Skills = () => {
 };
 
 export default Skills;
+
 
 
