@@ -21,19 +21,19 @@ const myProjects = [
   },
 
   {
-    title: 'Weather Application',
-    description: 'This weather application, built using React, provides real-time weather updates using an API. Users can search for current weather conditions in any city, with data dynamically displayed in an interactive user interface.',
-    repositoryLink: 'https://github.com/duaa2001/React_Weather_App',
-    deploymentLink: 'https://duaa-weather-application.netlify.app/',
-    image: P2Image,
-  },
-
-  {
     title: 'Tech Marketplace site',
     description: 'Tech Marketplace is a LinkedIn-style platform for tech professionals to showcase projects and connect based on skills and interests. Users can create profiles, display projects, and leverage AI to generate profile summaries.',
     repositoryLink: 'https://github.com/duaa2001/RecruitingSite',
     deploymentLink: 'https://techmarketplace-dts-projects-8b296abb.vercel.app/',
     image: P4Image,
+  },
+
+  {
+    title: 'Weather Application',
+    description: 'This weather application, built using React, provides real-time weather updates using an API. Users can search for current weather conditions in any city, with data dynamically displayed in an interactive user interface.',
+    repositoryLink: 'https://github.com/duaa2001/React_Weather_App',
+    deploymentLink: 'https://duaa-weather-application.netlify.app/',
+    image: P2Image,
   },
 
   {
