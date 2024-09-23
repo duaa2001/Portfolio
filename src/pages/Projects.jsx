@@ -5,12 +5,6 @@ import P3Image from '../assets/Project_3.jpg';
 import P4Image from '../assets/techmarketproject.png';
 import P5Image from '../assets/movieboxproject.png';
 
-// Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
-// properties:
-// - title: The title of the project
-// - description: A description of the project
-// - repositoryLink: A link to the GitHub repository of the project
-// You can also add more properties if you want to display more information about your projects.
 const myProjects = [
   {
     title: 'Femcare - Healthcare Site',

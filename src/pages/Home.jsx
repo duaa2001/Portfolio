@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <main className="home-container">
       <section className="home-hero home-subsection">
+      <div className="hero-content-wrapper">
         <h2 className="text-4xl mb-2">Hi, I am {fullName}</h2>
         <p className="subsection-paragraph">{personalQuote}</p>
         <div><NavLink to="/contact">
@@ -29,6 +30,7 @@ const Home = () => {
               <FaGithub className="git-icon" size={30} />
             </a>
           </p>
+        </div>
         </div>
         {/* Replace the src with your own placeholder and change the alt to match the description */}
         <img className="hero-background" src={coverImg} alt="home page" />
