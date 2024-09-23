@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f4f7fc;
+  background-color: #f0f4f8; /* Updated background color for the body */
   color: #333;
 }
 
@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 40px;
+  background-color: #222223; /* Darker background for home container */
 }
 
 .hero-content-wrapper {
@@ -27,7 +28,8 @@ body {
   width: 100%;
   max-width: 1200px;
   padding: 60px;
-  background-color: #fff;
+  background-color: #ffffff; /* White background for contrast */
+  border: 5px solid rgb(22, 0, 112);
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px;
@@ -41,13 +43,13 @@ body {
 
 h2 {
   font-size: 2.8rem;
-  color: #222;
+  color: #444; /* Updated text color */
   margin-bottom: 15px;
 }
 
 .subsection-paragraph {
   font-size: 1.2rem;
-  color: #666;
+  color: #555; /* Slightly darker text for readability */
   margin-bottom: 20px;
 }
 
@@ -56,13 +58,13 @@ h2 {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #333;
+  color: #444;
 }
 
 a {
   display: inline-block;
   padding: 12px 30px;
-  background-color: #007bff;
+  background-color: #0077b6; /* Updated blue for more contrast */
   color: white;
   border-radius: 25px;
   text-decoration: none;
@@ -71,7 +73,7 @@ a {
 }
 
 a:hover {
-  background-color: #005bb5;
+  background-color: #005f99; /* Darker hover effect */
   transform: scale(1.05);
 }
 
@@ -95,7 +97,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #e3eaf5; /* Light blue background for sections */
   padding: 40px;
   margin-top: 40px;
   width: 100%;
@@ -113,7 +115,7 @@ a:hover {
 
 .subsection-intro-header {
   font-size: 2rem;
-  color: #333;
+  color: #444;
   margin-bottom: 25px;
 }
 
@@ -125,7 +127,7 @@ a:hover {
 
 .subsection-paragraph {
   font-size: 1.3rem;
-  color: #666;
+  color: #555;
   max-width: 800px;
   line-height: 1.6;
 }
