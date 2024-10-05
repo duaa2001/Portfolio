@@ -19,6 +19,7 @@ const myProjects = [
     description: 'Tech Marketplace is a LinkedIn-style platform for tech professionals to showcase projects and connect based on skills and interests. Users can create profiles, display projects, and leverage AI to generate profile summaries.',
     repositoryLink: 'https://github.com/duaa2001/RecruitingSite',
     deploymentLink: 'https://techmarketplace-dts-projects-8b296abb.vercel.app/',
+    youtubeLink: 'https://www.youtube.com/watch?v=PvLYTA9aVuU',
     image: P4Image,
   },
 
@@ -74,6 +75,11 @@ const Projects = () => {
           {project.deploymentLink && (
             <p className="deploy text-lime-300 italic">
               View the live deployment <a href={project.deploymentLink} target="_blank">Here</a>
+            </p>
+          )}
+          {project.youtubeLink && (
+            <p className="youtube-link text-yellow-300 italic">
+              Watch the project demo on YouTube <a href={project.youtubeLink} target="_blank">Here</a>
             </p>
           )}
         </section>

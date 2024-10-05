@@ -22,7 +22,7 @@ const About = () => {
           <img className='headshot' src={myImage} alt="work life balance pic" />
         </section>
         <section className='description-container'>
-          <h2 className='text-xl font-medium color-white'>I&apos;m {firstName}, a {jobTitle} located in {jobLocation}.</h2>
+          <h2 className='text-xl font-medium'>I&apos;m {firstName}, a {jobTitle} located in {jobLocation}.</h2>
           <p>{briefJobDescription}</p>
           <p>{careerObjective}</p>
           <p>{personalLife}</p>
