@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f4f8; /* Updated background color for the body */
-  color: #333;
+  background-color: #ffffff; /* Updated background color for the body */
+  color: #1d1d1d;
 }
 
 .home-container {
@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  background-color: #222223; /* Darker background for home container */
+  background-color: #fefbff; /* Darker background for home container */
 }
 
 .hero-content-wrapper {
@@ -29,7 +29,7 @@ body {
   max-width: 1200px;
   padding: 60px;
   background-color: #ffffff; /* White background for contrast */
-  border: 5px solid rgb(22, 0, 112);
+  border: 2px solid rgb(22, 0, 112);
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px;
