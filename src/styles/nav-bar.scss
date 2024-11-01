@@ -3,27 +3,46 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100px;
-  background-color: #3b0063;
+  background-color: #5c5cdb;
   color: white;
   position: sticky;
   top: 0;
   z-index: 98;
+  
+  /* Keep "My Portfolio" text white */
+  h1 {
+    color: #ffffff;
+  }
+
+  /* Set .lg-links to display as flex on larger screens and keep links black */
   .lg-links {
     display: none;
     font-size: 1.2rem;
+    color: #1d1d1d; /* Default black text for links */
+
     @media screen and (min-width: $laptop) {
       display: flex;
     }
+
     a {
       margin-left: 20px;
+      color: #1d1d1d !important; /* Force navbar links to be black */
     }
   }
+
+  .lg-links a:hover {
+    color: #333333; /* Dark gray on hover */
+  }
+
   .sm-active {
     display: flex;
+
     @media screen and (min-width: $laptop) {
       display: none;
     }
   }
+
+  /* Sidebar (sm-links) styling */
   .sm-links {
     color: black;
     flex-direction: column;
@@ -38,15 +57,21 @@
     width: 200px;
     padding: 20px 10px 0;
     z-index: 99;
+
     a {
       margin: 3px 0;
       font-size: 1.1rem;
+      color: #1d1d1d; /* Black text for sidebar links */
     }
   }
+
+  /* General link hover effect */
   a:hover {
-    color: blue;
+    color: rgb(255, 255, 255); /* White on hover */
     text-decoration: underline;
   }
+
+  /* Hover effect for buttons */
   button:hover {
     background-color: gray;
     color: white;
